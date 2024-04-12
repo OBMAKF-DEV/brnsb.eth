@@ -1,4 +1,42 @@
 body {
   background-color: #000!important;
+  display: flex;
+  flex-direction: row;
+}
+
+#top-page-container {
+  flex: 1;
+  width: 100vw;
+}
+
+#navigation-bar {
+  flex: 2;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  margin-top:20px;
+}
+
+#navigation-bar button {
+  padding: 10px 20px;
+  margin: 0 10px;
+  background-color: #101010;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#navigation-bar button:hover {
+  color: #00ff00;
+}
+
+.page-title {
   color: #00ff00!important;
+}
+
+@media only and (min-width: 767px) {
+  .page-title {
+    text-align: center;
+  }
 }
