@@ -6,6 +6,11 @@ body {
   justify-content: center;
 }
 
+.typewrite {
+  justify-text: center;
+  font-family: Courier New, monospace;
+}
+
 h1 {
   color: #00ff00!important;
   text-decoration: none;
