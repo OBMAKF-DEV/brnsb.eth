@@ -5,12 +5,14 @@ function scrollToSection(sectionId) {
   });
 }
 
+var i = 0;
+var txt = 'Welcome to brnsb.eth!'
+var speed = 100;
+
 // Typewriter effect
-function typeWriter(element, text, speed)
-  var i = 0;
-  
+function typeWriter() {
   if (i < text.length) {
-    document.getElementById(element).innerHTML += text.charAt(i);
+    document.getElementById("main-title").innerHTML += txt.charAt(i);
     i++;
     setTimeout(typeWriter, speed);
   }
@@ -18,8 +20,5 @@ function typeWriter(element, text, speed)
 
 // Window onload typing effect.
 window.onload = function() {
-  const header = 'main-title';
-  const text = 'Welcome to brnsb.eth!';
-  const speed = 100;
-  typeWriter(header, text, speed);
+  typeWriter();
 };
