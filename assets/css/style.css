@@ -6,6 +6,10 @@ body {
   justify-content: center;
 }
 
+a {
+  text-decoration: none;
+}
+
 .typewrite {
   justify-text: center;
   font-family: Courier New, monospace;
