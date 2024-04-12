@@ -8,12 +8,14 @@ body {
 
 #terminal-edge {
   background-color: #333;
+  width: 90vw;
   margin: 5px;
 }
 
 #terminal-window {
   background-color: #000;
-  margin: 10px;
+  overflow: hidden;
+  margin: 5px;
 }
 
 a {
