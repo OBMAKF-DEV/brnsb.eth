@@ -15,6 +15,10 @@ a {
   font-family: Courier New, monospace;
 }
 
+header {
+  justify-text: center;
+}
+
 h1 {
   color: #00ff00!important;
   text-decoration: none;
