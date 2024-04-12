@@ -2,6 +2,7 @@ body {
   background-color: #000!important;
   display: flex;
   flex-direction: rows;
+  color: fff;
 }
 
 #top-page-container {
