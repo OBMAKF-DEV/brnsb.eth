@@ -6,6 +6,18 @@ body {
   justify-content: center;
 }
 
+h1 {
+  color: #00ff00!important;
+}
+
+h2 {
+  color: #fff;
+}
+
+h2:hover {
+  color: #00ff00;
+}
+
 #top-page-container {
   flex: 1;
   width: 100vw;
