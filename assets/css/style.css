@@ -35,6 +35,16 @@ body {
   color: #00ff00!important;
 }
 
+#about, #portfolio, #contact {
+  width: 80vw;
+  min-height: 250px;
+  border: 2px solid #fff;
+}
+
+.topic-header {
+  justify-text: center;
+}
+
 @media only and (min-width: 767px) {
   .page-title {
     text-align: center;
