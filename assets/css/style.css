@@ -56,6 +56,6 @@ body {
   #about, #portfolio, #contact {
   width: 100vw;
   min-height: 250px;
-  border: 0 solid #000;
+  border: none;
 }
 }
