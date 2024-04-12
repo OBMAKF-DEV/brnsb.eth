@@ -7,7 +7,7 @@ function scrollToSection(sectionId) {
 
 // Typewriter effect
 function typeWriter(element, text, speed)
-  let i = 0;
+  var i = 0;
   
   if (i < text.length) {
     document.getElementById(element).innerHTML += text.charAt(i);
