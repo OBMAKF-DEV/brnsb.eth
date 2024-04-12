@@ -11,7 +11,7 @@ var speed = 100;
 
 // Typewriter effect
 function typeWriter() {
-  if (i < text.length) {
+  if (i < txt.length) {
     document.getElementById("main-title").innerHTML += txt.charAt(i);
     i++;
     setTimeout(typeWriter, speed);
