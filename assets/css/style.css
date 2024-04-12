@@ -3,6 +3,7 @@ body {
   display: flex;
   flex-direction: column;
   color: fff;
+  justify-content: center;
 }
 
 #top-page-container {
@@ -40,6 +41,7 @@ body {
   width: 80vw;
   min-height: 250px;
   border: 2px solid #fff;
+  margin-bottom: 20px;
 }
 
 .topic-header {
@@ -50,4 +52,10 @@ body {
   .page-title {
     text-align: center;
   }
+  
+  #about, #portfolio, #contact {
+  width: 100vw;
+  min-height: 250px;
+  border: 0 solid #000;
+}
 }
