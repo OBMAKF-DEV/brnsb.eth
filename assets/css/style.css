@@ -10,7 +10,7 @@ body {
   width: 95vw;
   background-color: #000;
   overflow: hidden;
-  margin: 5px;
+  margin-left: 5px;
   padding-left: 10px;
   border: 5px solid #333;
 }
