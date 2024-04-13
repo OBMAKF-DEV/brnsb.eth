@@ -88,6 +88,11 @@ h2:hover {
   justify-text: center;
 }
 
+#about:hover {
+  margin-left: 5vw;
+  min-height: 90vw;
+}
+
 @media only and (min-width: 767px) {
   .page-title {
     text-align: center;
