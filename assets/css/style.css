@@ -7,7 +7,7 @@ body {
 }
 
 #terminal-window {
-  width: 100vw;
+  width: 95vw;
   background-color: #000;
   overflow: hidden;
   margin: 5px;
