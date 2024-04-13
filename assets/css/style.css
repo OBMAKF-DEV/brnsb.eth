@@ -39,6 +39,8 @@ h2 {
 
 h2 {
   font-family: Tangerine, serif!important;
+  width: 100%;
+  border-bottom: 2px solif #fff;
 }
 
 h2:hover {
