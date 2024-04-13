@@ -6,17 +6,12 @@ body {
   justify-content: center;
 }
 
-#terminal-edge {
-  background-color: #333;
-  width: 90vw;
-  height: 100px;
-  margin: 5px;
-}
-
 #terminal-window {
+  width: 90vw;
   background-color: #000;
   overflow: hidden;
   margin: 5px;
+  border: 5px solid #333;
 }
 
 a {
