@@ -2,7 +2,7 @@ body {
   background-color: #000!important;
   display: flex;
   flex-direction: column;
-  color: fff;
+  color: #fff;
   justify-content: center;
 }
 
@@ -20,12 +20,11 @@ a {
 }
 
 .typewrite {
-  justify-text: center;
   font-family: Courier New, monospace;
 }
 
 header {
-  justify-text: center;
+  text-align: center;
 }
 
 h1 {
@@ -40,7 +39,7 @@ h2 {
 h2 {
   font-family: Tangerine, serif!important;
   width: 100%;
-  border-bottom: 2px solif #fff;
+  border-bottom: 2px solid #fff;
 }
 
 h2:hover {
@@ -87,7 +86,7 @@ h2:hover {
 }
 
 .topic-header {
-  justify-text: center;
+  text-align: center;
 }
 
 #about:hover {
@@ -95,7 +94,7 @@ h2:hover {
   min-height: 90vw;
 }
 
-@media only and (min-width: 767px) {
+@media only screen and (min-width: 767px) {
   .page-title {
     text-align: center;
   }
