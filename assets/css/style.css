@@ -6,6 +6,11 @@ body {
   justify-content: center;
 }
 
+#footer-table {
+  align-text: center;
+}
+  
+
 #terminal-window {
   width: 95vw;
   background-color: #000;
