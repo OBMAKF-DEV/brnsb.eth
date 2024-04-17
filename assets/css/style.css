@@ -32,17 +32,15 @@ h1 {
   text-decoration: none;
 }
 
-h2 {
-  color: #fff!important;
-}
-
-h2 {
+h2.topic-header {
   font-family: Tangerine, serif!important;
   width: 100%;
   border-bottom: 2px solid #fff;
+  color: #fff;
+  text-decoration: none;
 }
 
-h2:hover {
+h2.topic-header:hover {
   color: #00ff00;
 }
 
@@ -90,6 +88,13 @@ h2:hover {
   text-align: center;
 }
 
+table#footer-table {
+  width: 100vw;
+}
+
+th.footer-heading {
+  width: 50%;
+}
 /**
 #about:hover, #introduction:hover, #portfolio:hover, #contact:hover{
   margin-left: 5vw;
@@ -104,6 +109,10 @@ h2:hover {
   #introduction, #about, #portfolio, #contact {
     width: 100vw;
     min-height: 250px;
-    border: none;
+    border-bottom: 2px solid #fff;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-left: 0;
   }
 }

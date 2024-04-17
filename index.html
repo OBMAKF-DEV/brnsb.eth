@@ -51,14 +51,12 @@
 
             <!-- #introduction -->
             <div id="introduction" class="container">
-                <details>
-                    <summary>
-                        <h1>Introduction</h1>
-                    </summary>
-                    <section>
-                        <p>Introduction here...</p>
-                    </section>
-                </details>
+                <header class="topic-header">
+                    <h1>Introduction</h1>
+                </header>
+                <section>
+                    <p>Introduction here...</p>
+                </section>>
             </div><!-- #introduction -->
 
             <!-- #about -->
@@ -73,6 +71,13 @@
                 <header class="topic-header">
                     <h2>Portfolio</h2>
                 </header>
+                <section class="topic-content">
+                    <p>Welcome to my site...</p>
+                    <details>
+                        <summary>See More</summary>
+                        <p>Extra Details here...</p>
+                    </details>
+                </section>
             </div><!-- #portfolio -->
 
             <!-- #contact -->
@@ -80,13 +85,19 @@
                 <header class="topic-header">
                   <h2>Contact-Me</h2>
                 </header>
+                <section>
+                    <table>
+                        <tr><th></th></td></tr>
+                    </table>
+                </section>
             </div><!-- #contact -->
         </main>
+        <!--footer-->
         <footer>
-            <table>
+            <table id="footer-table">
                 <tr>
-                    <th><u>Site</u></th>
-                    <th><u>Other</u></th>
+                    <th class="footer-heading"><u>Site</u></th>
+                    <th class="footer-heading"><u>Other</u></th>
                 </tr>
                 <tr>
                     <td><a href="#introduction">Introduction</a></td>
@@ -106,7 +117,7 @@
                     <td><a href="#contact">ContactMe</a></td>
                 </tr>
             </table>
-        </footer>
+        </footer><!--footer-->
 
         <script src="./assets/js/script.js"></script>
         <script src="./assets/js/effects.js"></script>
