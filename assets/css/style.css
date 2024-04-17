@@ -90,12 +90,13 @@ h2:hover {
   text-align: center;
 }
 
+/**
 #about:hover, #introduction:hover, #portfolio:hover, #contact:hover{
   margin-left: 5vw;
   min-height: 50%;
-}
+}**/
 
-@media only screen and (min-width: 767px) {
+@media only screen and (max-width: 767px) {
   .page-title {
     text-align: center;
   }
