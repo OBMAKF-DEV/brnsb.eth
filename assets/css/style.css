@@ -57,6 +57,7 @@ h2:hover {
   display: flex;
   justify-content: center;
   margin-top:20px;
+  border: 2px solid #fff;
 }
 
 #navigation-bar button {
@@ -77,7 +78,7 @@ h2:hover {
   color: #00ff00!important;
 }
 
-#about, #portfolio, #contact {
+#introduction, #about, #portfolio, #contact {
   margin-left: 10vw;
   width: 80vw;
   min-height: 250px;
@@ -89,9 +90,9 @@ h2:hover {
   text-align: center;
 }
 
-#about:hover {
+#about:hover, #introduction:hover, #portfolio:hover, #contact:hover{
   margin-left: 5vw;
-  min-height: 90vw;
+  min-height: 50%;
 }
 
 @media only screen and (min-width: 767px) {
@@ -99,7 +100,7 @@ h2:hover {
     text-align: center;
   }
   
-  #about, #portfolio, #contact {
+  #introduction, #about, #portfolio, #contact {
     width: 100vw;
     min-height: 250px;
     border: none;
