@@ -44,6 +44,8 @@ h2.topic-header:hover {
   color: #00ff00;
 }
 
+.see-more { color: #fff; }
+
 #top-page-container {
   flex: 1;
   width: 100vw;
