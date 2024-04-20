@@ -58,11 +58,11 @@ h2.topic-header:hover {
 
 #navigation-bar {
   flex: 2;
-  width: 98vw;
+  width: 99.8vw;
   display: flex;
   justify-content: center;
   margin-top:20px;
-  border: 2vw solid #fff;
+  border: 0.2vw solid #fff;
 }
 
 #navigation-bar button {
