@@ -63,6 +63,7 @@ h2.topic-header:hover {
   justify-content: center;
   margin-top:20px;
   border: 0.2vw solid #fff;
+  margin-bottom: 20px;
 }
 
 #navigation-bar button {
