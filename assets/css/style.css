@@ -6,6 +6,42 @@ body {
   justify-content: center;
 }
 
+body {
+    font-family: Arial, sans-serif;
+}
+
+.consent-banner {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    display: none;
+    z-index: 1000;
+}
+
+.consent-banner-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.consent-banner button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.consent-banner button:hover {
+    background-color: #0056b3;
+}
+
+
 #footer-table {
   align-text: center;
 }
