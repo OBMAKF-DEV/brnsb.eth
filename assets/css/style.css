@@ -10,7 +10,7 @@ body {
     font-family: Arial, sans-serif;
 }
 
-main:before {
+main {
   background-color: #fff;!important;
   background-image: url("https://raw.githubusercontent.com/OBMAKF-DEV/brnsb.eth/3db22b85b21a4d71ed03ee306211f22047fb196e/assets/img/bgWave.svg");
   transform: rotate(180deg);
