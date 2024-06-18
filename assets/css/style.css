@@ -10,9 +10,9 @@ body {
     font-family: Arial, sans-serif;
 }
 
-main {
+.page-bg {
   background-color: #fff;!important;
-  background-image: url("https://raw.githubusercontent.com/OBMAKF-DEV/brnsb.eth/3db22b85b21a4d71ed03ee306211f22047fb196e/assets/img/bgWave.svg");
+  background-image: url("https://raw.githubusercontent.com/OBMAKF-DEV/brnsb.eth/fa1f887e1918748722f7dad17f60cd7d08866dbb/assets/img/bgWave.svg");
   background-repeat: no-repeat;
 }
 
