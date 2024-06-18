@@ -10,6 +10,13 @@ body {
     font-family: Arial, sans-serif;
 }
 
+.page-bg:before {
+  background-image: url("../img/bgWave.svg");
+  width: 100vw;
+  top: 0;
+  transform: rotate(180deg);
+}
+
 .consent-banner {
     position: fixed;
     bottom: 0;
