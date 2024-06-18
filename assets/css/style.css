@@ -14,6 +14,7 @@ body {
   background-color: #fff;!important;
   background-image: url("https://raw.githubusercontent.com/OBMAKF-DEV/brnsb.eth/fa1f887e1918748722f7dad17f60cd7d08866dbb/assets/img/bgWave.svg");
   background-repeat: no-repeat;
+  width: 100vw;
 }
 
 .consent-banner {
