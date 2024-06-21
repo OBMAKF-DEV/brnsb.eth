@@ -19,6 +19,10 @@ main {
   width: 100vw;
 }
 
+#groupComments_0xEcho {
+  .background-color: #3e3e3e;
+}
+
 .consent-banner {
     position: fixed;
     bottom: 0;
