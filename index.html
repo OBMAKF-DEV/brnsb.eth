@@ -17,6 +17,28 @@
         <!-- End Google Tag Manager -->
     </head>
     <body>
+          <style>
+            .containerM {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              flex-direction: column;
+            }
+              
+            .list {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              flex-direction: row;
+            }
+    
+            .list > :not(style) ~ :not(style) {
+              margin-top: 0px;
+              margin-inline: 24px 0px;
+              margin-bottom: 0px;
+            }
+        </style>
+        <script src="https://unpkg.com/@mail3/mail3-me"></script>
         
         <!-- Google Tag Manager (noscript) -->
         <noscript>
@@ -87,6 +109,18 @@
                     <header class="topic-header">
                         <h1>Introduction</h1>
                     </header>
+                    <div class="list">
+                    <mail3-me
+                      to="oxyful.eth@mail3.me"
+                      icon_type="white"
+                      icon_style="width: 24px; height: 24px; margin-right: 8px"
+                      style="
+                        width: 250px;
+                        font-size: 16px;
+                        border-radius: 24px;
+                        background: #4e52f5;">
+                    </mail3-me>
+                  </div>
                 </div>
                 <section>
                     <p>Introduction here...</p>
