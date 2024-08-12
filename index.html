@@ -133,6 +133,30 @@
                 </section>>
             </div><!-- #introduction -->
 
+            <div class="row">
+                <div class="column" onclick="openTab('b1');" style="background: #101010;">Box1</div>
+                <div class="column" onclick="openTab('b2');" style="background: #101010;">Box2</div>
+                <div class="column" onclick="openTab('b3');" style="background: #101010;">Box3</div>
+            </div>
+
+            <div id="b1" class="containerTab" style="display:none;background:#101010;">
+                <span onclick="this.parentElement.style.display='none'" class="closebtn">x</span>
+                <h2>Box 1</h2>
+                <p>This is only temporary.</p>
+            </div>
+
+            <div id="b2" class="containerTab" style="display:none;background:#101010;">
+                <span onclick="this.parentElement.style.display='none'" class="closebtn">x</span>
+                <h2>Box 2</h2>
+                <p>This is only temporary.</p>
+            </div>
+
+            <div id="b3" class="containerTab" style="display:none;background:#101010;">
+                <span onclick="this.parentElement.style.display='none'" class="closebtn">x</span>
+                <h2>Box 3</h2>
+                <p>This is only temporary.</p>
+            </div>
+
             <!-- #about -->
             <div id="about" class="container">
                 <header class="topic-header">
@@ -204,5 +228,8 @@
         <script src="./assets/js/consent.js"></script>
         <script src="./assets/js/script.js"></script>
         <script src="./assets/js/effects.js"></script>
+        <script type="module" src="./assets/js/main.js"></script>
     </body><!-- body -->
 </html>
+
+                
