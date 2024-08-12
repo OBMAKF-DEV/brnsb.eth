@@ -1,7 +1,7 @@
 import { openTab } from './eventHandler.js';
 
 function initialiseApp() {
-  openTab();
+  //openTab();
 }
 
 document.addEventListener("DOMContentLoaded", initialiseApp);
